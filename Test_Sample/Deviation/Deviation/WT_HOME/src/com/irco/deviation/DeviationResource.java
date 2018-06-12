@@ -10,11 +10,9 @@ import java.util.ListResourceBundle;
 public class DeviationResource extends ListResourceBundle
 {
 
-<<<<<<< HEAD
+
 	//Changes done by SUguna Sagar 
-=======
-	//Changes done by 64634536
->>>>>>> branch 'master' of https://github.com/sugunasagar/TEST_GIT_REPOSITORY.git
+
     static final Object contents[][] = {
        {
             "variance.deviationReport.description", "Deviation Report"
