@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actionmodels SYSTEM "actionmodels.dtd">
+<actionmodels>
+<model name="toolbarModelNotUsedAnywhere">
+   <action name="create" type="forumPosting"/>
+   <action name="demo1"       type="test1"/> 
+</model>
+ <model name="variance row actions" menufor="wt.change2.WTVariance">
+      <description>Variance row actions</description>
+      <submodel name="Change object row actions open"/>
+      <action name="separator" type="separator"/>
+      <action name="view" type="object"/>
+      <action name="separator" type="separator"/>
+      <action name="edit" type="variance"/>
+      <action name="editModifyContentOnly" type="variance"/>
+      <action name="reviseChangeItems" type="change"/>
+      <action name="separator" type="separator"/>
+      <action name="create" type="changeRequest"/>
+      <action name="separator" type="separator"/>
+      <action name="relatedWorkitems" type="change"/>
+      <action name="separator" type="separator"/>
+      <action name="copy" type="object"/>
+      <action name="CONTAINERMOVE" type="pdmObject"/>
+      <action name="renameObjectWizard" type="object"/>
+      <action name="setState" type="lifecycle"/>
+      <action name="deleteChangeItem" type="change"/>
+      <action name="reassignLC" type="lifecycle"/> <!-- Reassign Life Cycle -->
+      <action name="resetTeam" type="team"/>
+      <action name="separator" type="separator"/>
+      <submodel name="change objects add row actions"/>
+      <action name="separator" type="separator"/>
+      <action name="removeShare" type="object"/>
+      <action name="separator" type="separator"/>
+      <action name="summaryReport" type="change"/>
+      <action name="separator" type="separator"/>
+      <action name="ManageSecurity" type="accessPermission"/>
+      <action name="createSubscription" type="subscription"/>
+	   <action name="deviationReport" type="variance"/>    <!--Added for Deviation Report by Naveen 24 April 2013 -->
+   </model>
+   </actionmodels>

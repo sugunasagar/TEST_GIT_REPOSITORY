@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listofactions SYSTEM "actions.dtd">
+<listofactions>
+ <objecttype name="test1" class="wt.change2.WTChangeOrder2" resourceBundle="com.irco.deviation.DeviationResource">
+   
+     <action name="demo1" resourceBundle="com.irco.deviation.DeviationResource">
+          <command windowType="popup" url=" "/>
+     </action>
+	 
+   </objecttype>
+ <objecttype name="variance" class="wt.change2.WTVariance" resourceBundle="com.ptc.windchill.enterprise.change2.changeManagementActionsRB">
+
+  <!-- Added for deviation report Customization by Naveen 24 April 2013 -->
+		<action name="deviationReport" resourceBundle="com.irco.deviation.DeviationResource">>
+		<description>Custom Report for Deviation</description>
+        <command class="" method="execute" windowType="popup" url="netmarkets/jsp/variance/deviationReport.jsp"/>
+		</action>
+<!-- Added for deviation report Customization by Naveen 24 April 2013 -->
+ </objecttype>
+</listofactions>

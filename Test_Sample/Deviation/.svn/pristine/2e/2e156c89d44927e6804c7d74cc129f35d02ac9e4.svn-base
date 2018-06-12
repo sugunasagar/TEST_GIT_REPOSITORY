@@ -1,0 +1,572 @@
+ResourceInfo.class=wt.tools.resource.EnumResourceInfo
+ResourceInfo.customizable=true
+ResourceInfo.deprecated=false
+
+# Entry Format (values equal to default value are not included)
+# <key>.value=
+# <key>.category=
+# <key>.comment=
+# <key>.argComment<n>=
+# <key>.constant=
+# <key>.customizable=
+# <key>.deprecated=
+# <key>.abbreviatedDisplay=
+# <key>.fullDisplay=
+# <key>.shortDescription=
+# <key>.longDescription=
+# <key>.order=
+# <key>.defaultValue=
+# <key>.selectable=
+
+# Entry Contents
+
+APPROVER.value=Approver
+APPROVER.shortDescription=Workflow Approver role
+APPROVER.order=10
+
+APPROVER_LEVEL_1.value=Approver - Level I
+APPROVER_LEVEL_1.shortDescription=Workflow Approver role for level one approval in OOTB template Two Level Approval Process
+APPROVER_LEVEL_1.order=11
+
+APPROVER_LEVEL_2.value=Approver - Level II
+APPROVER_LEVEL_2.shortDescription=Workflow Approver role for level two approval in OOTB template Two Level Approval Process
+APPROVER_LEVEL_2.order=12
+
+ASSIGNEE.value=Assignee
+ASSIGNEE.shortDescription=Workflow Asignee role
+ASSIGNEE.order=40
+
+AUDITOR.value=Auditor
+AUDITOR.shortDescription=Workflow Auditor role
+AUDITOR.order=20
+
+AUTHOR.value=Author
+AUTHOR.shortDescription=Workflow Author role
+AUTHOR.order=30
+
+CHANGE MANAGER.value=Change Manager
+CHANGE MANAGER.shortDescription=Workflow Change Manager role
+CHANGE MANAGER.order=50
+
+CHANGE OWNER.value=Change Owner
+CHANGE OWNER.shortDescription=Workflow Change Owner role
+CHANGE OWNER.order=60
+
+CHEMICAL ENGINEER.value=Chemical Engineer
+CHEMICAL ENGINEER.shortDescription=Workflow Chemical Engineer role
+CHEMICAL ENGINEER.order=70
+
+CONSULTANT.value=Consultant
+CONSULTANT.shortDescription=Workflow Consultant role
+CONSULTANT.order=73
+
+CONTRACTOR.value=Contractor
+CONTRACTOR.shortDescription=Workflow Contractor role
+CONTRACTOR.order=75
+
+CONTROLLER.value=Controller
+CONTROLLER.shortDescription=Workflow Controller role
+CONTROLLER.order=80
+
+CUSTOMER.value=Customer
+CUSTOMER.shortDescription=Workflow Customer role
+CUSTOMER.order=90
+
+DESIGN ENGINEER.value=Design Engineer
+DESIGN ENGINEER.shortDescription=Workflow Design Engineer role
+DESIGN ENGINEER.order=110
+
+DESIGNER.value=Designer
+DESIGNER.shortDescription=Workflow Designer role
+DESIGNER.order=100
+
+DETAILER.value=Detailer
+DETAILER.shortDescription=Workflow Detailer role
+DETAILER.order=120
+
+ENGINEER.value=Engineer
+ENGINEER.shortDescription=Workflow Engineer role
+ENGINEER.order=125
+
+FIELD ENGINEER.value=Field Engineer
+FIELD ENGINEER.shortDescription=Workflow Field Engineer role
+FIELD ENGINEER.order=130
+
+GROUP LEADER.value=Group Leader
+GROUP LEADER.shortDescription=Workflow Group Leader role
+GROUP LEADER.order=135
+
+HYDRAULIC ENGINEER.value=Hydraulic Engineer
+HYDRAULIC ENGINEER.shortDescription=Workflow Hydraulic Engineer role
+HYDRAULIC ENGINEER.order=140
+
+#(This is the correct spelling for implementor - please do not change)
+IMPLEMENTOR.value=Implementor
+IMPLEMENTOR.shortDescription=Workflow Implementor role 
+IMPLEMENTOR.order=150
+
+INDUSTRIAL ENGINEER.value=Industrial Engineer
+INDUSTRIAL ENGINEER.shortDescription=Workflow Industrial Engineer role
+INDUSTRIAL ENGINEER.order=160
+
+LOGIC ENGINEER.value=Logic Engineer
+LOGIC ENGINEER.shortDescription=Workflow Logic Engineer role
+LOGIC ENGINEER.order=170
+
+MANUFACTURER.value=Manufacturer
+MANUFACTURER.shortDescription=Workflow Manufacturer role
+MANUFACTURER.order=180
+
+MANUFACTURING ENGINEER.value=Manufacturing Engineer
+MANUFACTURING ENGINEER.shortDescription=Workflow Manufacturing Engineer role
+MANUFACTURING ENGINEER.order=190
+
+MANUFACTURING MANAGER.value=Manufacturing Manager
+MANUFACTURING MANAGER.shortDescription=Workflow Manufacturing Manager role
+MANUFACTURING MANAGER.order=200
+
+MATERIAL ENGINEER.value=Material Engineer
+MATERIAL ENGINEER.shortDescription=Workflow Material Engineer role
+MATERIAL ENGINEER.order=210
+
+MEMBERS.value=Members
+MEMBERS.shortDescription=Workflow Members role
+MEMBERS.order=215
+
+NC PROGRAMMER.value=NC Programmer
+NC PROGRAMMER.shortDescription=Workflow NC Programmer role
+NC PROGRAMMER.order=220
+
+NONAOSADMINISTRATOR.value=Non AOS Administrator
+NONAOSADMINISTRATOR.comment=Non AOS Administrator
+NONAOSADMINISTRATOR.shortDescription=Non AOS Administrator
+NONAOSADMINISTRATOR.order=225
+
+OBSERVER.value=Observer
+OBSERVER.shortDescription=Observer role
+OBSERVER.order=230
+
+OEM.value=OEM
+OEM.shortDescription=OEM role
+OEM.order=233
+
+ORGANIZATION LEADER.value=Organization Leader
+ORGANIZATION LEADER.shortDescription=Workflow Organization Leader role
+ORGANIZATION LEADER.order=235
+
+OWNER.value=Owner
+OWNER.shortDescription=Workflow Owner role
+OWNER.order=240
+
+PLANNER.value=Planner
+PLANNER.shortDescription=Workflow Planner role
+PLANNER.order=250
+
+PRODUCT MANAGER.value=Product Manager
+PRODUCT MANAGER.shortDescription=Workflow Product Manager role
+PRODUCT MANAGER.order=270
+
+PRODUCTION PLANNER.value=Production Planner
+PRODUCTION PLANNER.shortDescription=Workflow Production Planner role
+PRODUCTION PLANNER.order=260
+
+PROGRAM DIRECTOR.value=Program Director
+PROGRAM DIRECTOR.shortDescription=Workflow Program Director role
+PROGRAM DIRECTOR.order=265
+
+PROGRAM MANAGER.value=Program Manager
+PROGRAM MANAGER.shortDescription=Workflow Program Manager role
+PROGRAM MANAGER.order=280
+
+PROJECT ACCOUNTANT.value=Project Accountant
+PROJECT ACCOUNTANT.shortDescription=Workflow Project Accountant role
+PROJECT ACCOUNTANT.order=285
+
+PROJECT ADMINISTRATOR.value=Project Administrator
+PROJECT ADMINISTRATOR.shortDescription=Workflow Project Administrator role
+PROJECT ADMINISTRATOR.order=287
+
+PROJECT ENGINEER.value=Project Engineer
+PROJECT ENGINEER.shortDescription=Workflow Project Engineer role
+PROJECT ENGINEER.order=290
+
+PROJECT MANAGER.value=Project Manager
+PROJECT MANAGER.shortDescription=Workflow Project Manager role
+PROJECT MANAGER.order=295
+
+PROJECT SPONSOR.value=Project Sponsor
+PROJECT SPONSOR.shortDescription=Workflow Project Sponsor role
+PROJECT SPONSOR.order=297
+
+PROMOTER.value=Promoter
+PROMOTER.shortDescription=Promoter role
+PROMOTER.order=300
+
+PURCHASING AGENT.value=Purchasing Agent
+PURCHASING AGENT.shortDescription=Workflow Purchasing Agent role
+PURCHASING AGENT.order=310
+
+QUALITY ENGINEER.value=Quality Engineer
+QUALITY ENGINEER.shortDescription=Workflow Quality Engineer role
+QUALITY ENGINEER.order=320
+
+QUALITY MANAGER.value=Quality Manager
+QUALITY MANAGER.shortDescription=Workflow Quality Manager role
+QUALITY MANAGER.order=330
+
+RESOURCE MANAGER.value=Resource Manager
+RESOURCE MANAGER.shortDescription=Workflow Resource Manager role
+RESOURCE MANAGER.order=335
+
+REVIEWER.value=Reviewer
+REVIEWER.shortDescription=Reviewer role
+REVIEWER.order=340
+REVIEWER.defaultValue=true
+
+SOFTWARE ENGINEER.value=Software Engineer
+SOFTWARE ENGINEER.shortDescription=Workflow Software Engineer role
+SOFTWARE ENGINEER.order=350
+
+SUBMITTER.value=Submitter
+SUBMITTER.shortDescription=Submitter role
+SUBMITTER.order=360
+
+SUGGESTOR.value=Suggester
+SUGGESTOR.shortDescription=Workflow Suggester role
+SUGGESTOR.order=370
+
+SUPPLIER.value=Supplier
+SUPPLIER.shortDescription=Workflow Supplier role
+SUPPLIER.order=380
+
+SUPPORT ENGINEER.value=Support Engineer
+SUPPORT ENGINEER.shortDescription=Workflow Support Engineer role
+SUPPORT ENGINEER.order=390
+
+TEAM LEADER.value=Team Leader
+TEAM LEADER.shortDescription=Workflow Team Leader role
+TEAM LEADER.order=395
+
+TESTER.value=Tester
+TESTER.shortDescription=Workflow Tester role
+TESTER.order=400
+
+TOOL DESIGNER.value=Tool Designer
+TOOL DESIGNER.shortDescription=Workflow Tool Designer role
+TOOL DESIGNER.order=410
+
+VENDOR.value=Vendor
+VENDOR.shortDescription=Workflow Vendor role
+VENDOR.order=420
+
+EXPORTER.value=Exporter
+EXPORTER.shortDescription=Replication Exporter role
+EXPORTER.order=430
+
+IMPORTER.value=Importer
+IMPORTER.shortDescription=Replication Importer role
+IMPORTER.order=440
+
+PUBLISHER.value=Publisher
+PUBLISHER.shortDescription=Publisher role
+PUBLISHER.order=450
+
+SUBSCRIBER.value=Subscriber
+SUBSCRIBER.shortDescription=Subscriber role
+SUBSCRIBER.order=460
+
+REVIEW TEAM.value=Review Team
+REVIEW TEAM.shortDescription=Special ProjectLink role for workflow
+REVIEW TEAM.order=470
+
+PROBLEM REPORT TEAM.value=Problem Report Team
+PROBLEM REPORT TEAM.shortDescription=Problem Report Team
+PROBLEM REPORT TEAM.order=500
+
+# This role collects the Problem report authors for change management
+PR AUTHOR.value=Problem Report Author
+PR AUTHOR.shortDescription=Pr Author
+PR AUTHOR.order=501
+
+# This role is the Change Admin I for change management
+CHANGE ADMINISTRATOR I.value=Change Admin I
+CHANGE ADMINISTRATOR I.shortDescription=CAI
+CHANGE ADMINISTRATOR I.order=502
+
+# This role is the Change Admin II for change management
+CHANGE ADMINISTRATOR II.value=Change Admin II
+CHANGE ADMINISTRATOR II.shortDescription=CAII
+CHANGE ADMINISTRATOR II.order=503
+
+# This role is the Change Admin III for change management
+CHANGE ADMINISTRATOR III.value=Change Admin III
+CHANGE ADMINISTRATOR III.shortDescription=CAIII
+CHANGE ADMINISTRATOR III.order=504
+
+# This role is the CRB for a ECR in change management
+CHANGE REQUEST REVIEW BOARD.value=Change Review Board
+CHANGE REQUEST REVIEW BOARD.shortDescription=CRB
+CHANGE REQUEST REVIEW BOARD.order=505
+
+# This role is for the CIB in a ECN in change management
+CHANGE NOTICE IMPLEMENTATION BOARD.value=Change Implementation Board
+CHANGE NOTICE IMPLEMENTATION BOARD.shortDescription=CIB
+CHANGE NOTICE IMPLEMENTATION BOARD.order=506
+
+# This role collects the ECR authors for change management
+ECR AUTHOR.value=Change Request Author
+ECR AUTHOR.shortDescription=Change Request Author
+ECR AUTHOR.order=507
+
+SOURCING MANAGER.value=Sourcing Manager
+SOURCING MANAGER.shortDescription=Sourcing Manager
+SOURCING MANAGER.order=520
+
+SUPPLY CHAIN MANAGER.value=Supply Chain Manager
+SUPPLY CHAIN MANAGER.shortDescription=Supply Chain Manager
+SUPPLY CHAIN MANAGER.order=521
+
+RECIPIENT.value=Recipient
+RECIPIENT.shortDescription=Recipient role
+RECIPIENT.order=522
+
+EVALUATOR.value=Evaluator
+EVALUATOR.shortDescription=Evaluator role
+EVALUATOR.order=523
+
+RESPONDANT.value=Respondant
+RESPONDANT.shortDescription=Respondant role
+RESPONDANT.order=524
+
+#The administrator of an OrgContainer
+ORG ADMIN.value=Organization Administrator
+ORG ADMIN.shortDescription=The administrator of an OrgContainer
+ORG ADMIN.order=600
+
+PROJECT CREATOR.value=Project Creator
+PROJECT CREATOR.shortDescription=A user who can create a project in a given organization
+PROJECT CREATOR.order=610
+
+PRODUCT CREATOR.value=Product Creator
+PRODUCT CREATOR.shortDescription=A user who can create a product in a given organization
+PRODUCT CREATOR.order=614
+
+PRODUCT MANAGER.value=Product Manager
+PRODUCT MANAGER.shortDescription=The manager of a product container
+PRODUCT MANAGER.order=616
+
+LIBRARY CREATOR.value=Library Creator
+LIBRARY CREATOR.shortDescription=A user who can create a library in a given organization
+LIBRARY CREATOR.order=618
+
+LIBRARY MANAGER.value=Library Manager
+LIBRARY MANAGER.shortDescription=The manager of a library container
+LIBRARY MANAGER.order=620
+
+ESI ADMINISTRATOR.value=ESI Administrator
+ESI ADMINISTRATOR.shortDescription=Special ESI role for ESI workflow
+ESI ADMINISTRATOR.order=700
+
+ESI ENGINEER.value=ESI Engineer
+ESI ENGINEER.shortDescription=Special ESI role for ESI workflow
+ESI ENGINEER.order=701
+
+VP SALES.value=VP Sales
+VP SALES.shortDescription=VP Sales role
+VP SALES.order=710
+
+VP RESEARCH AND DEVELOPMENT.value=VP Research and Development
+VP RESEARCH AND DEVELOPMENT.shortDescription=VP Research and Development
+VP RESEARCH AND DEVELOPMENT.order=720
+
+VP OPERATIONS.value=VP Operations
+VP OPERATIONS.shortDescription=VP Operations role
+VP OPERATIONS.order=730
+
+VP MANUFACTURING.value=VP Manufacturing
+VP MANUFACTURING.shortDescription=VP Manufacturing role
+VP MANUFACTURING.order=740
+
+PLANT MANAGER.value=Plant Manager
+PLANT MANAGER.shortDescription=Plant Manager role
+PLANT MANAGER.order=750
+
+MANUFACTURING ENGINEERING MANAGER.value=Manufacturing Engineering Manager
+MANUFACTURING ENGINEERING MANAGER.shortDescription=Manufacturing Engineering Manager role
+MANUFACTURING ENGINEERING MANAGER.order=760
+
+MARKETING.value=Marketing
+MARKETING.shortDescription=Marketing role
+MARKETING.order=765
+
+QUALITY ASSURANCE MANAGER.value=Quality Assurance Manager
+QUALITY ASSURANCE MANAGER.shortDescription=Quality Assurance Manager role
+QUALITY ASSURANCE MANAGER.order=770
+
+PROCUREMENT MANAGER.value=Procurement Manager
+PROCUREMENT MANAGER.shortDescription=Procurement Manager role
+PROCUREMENT MANAGER.order=780
+
+PROCUREMENT ENGINEER.value=Procurement Engineer
+PROCUREMENT ENGINEER.shortDescription=Procurement Engineer role
+PROCUREMENT ENGINEER.order=790
+
+PURCHASING MANAGER.value=Purchasing Manager
+PURCHASING MANAGER.shortDescription=Purchasing Manager role
+PURCHASING MANAGER.order=800
+
+DESIGN TEAM LEADER.value=Design Team Leader
+DESIGN TEAM LEADER.shortDescription=Design Team Leader role
+DESIGN TEAM LEADER.order=810
+
+PROMOTION APPROVERS.value=Promotion Approvers
+PROMOTION APPROVERS.shortDescription=Team Members for approving Promotion Requests.
+PROMOTION APPROVERS.order=820
+
+PROMOTION REVIEWERS.value=Promotion Reviewers
+PROMOTION REVIEWERS.shortDescription=Team Members for reviewing Promotion Requests.
+PROMOTION REVIEWERS.order=830
+
+
+ECN REVIEWER.value=ECN Reviewer
+ECN REVIEWER.shortDescription=ECN Reviewer
+ECN REVIEWER.order=958
+
+Release Team.value=Release Team
+Release Team.shortDescription=Release Team Role
+Release Team.order=894
+
+# This role is the Field Change Admin I for change management for change management CM-II
+
+# This role is the Engineering Reviewer for change management CM-II
+CHANGE_ADMIN_IV.value=Change Admin IV
+CHANGE_ADMIN_IV.shortDescription=Change Admin IV
+CHANGE_ADMIN_IV.order=899
+
+CRB_ADMIN.value=Change Review Board Administrator
+CRB_ADMIN.shortDescription=Change Review Board Administrator
+CRB_ADMIN.order=960
+
+
+ENGINEERING REVIEWER.value=Engineering Reviewer
+ENGINEERING REVIEWER.shortDescription=Engineering Reviewer
+ENGINEERING REVIEWER.order=896
+
+ENG_MANAGER.value=Engineering Manager
+ENG_MANAGER.comment=For ECN Workflow
+ENG_MANAGER.order=1088
+
+FIELD CHANGE ADMINISTRATOR I.value=Field Change Admin I
+FIELD CHANGE ADMINISTRATOR I.shortDescription=FIELDCAI
+FIELD CHANGE ADMINISTRATOR I.order=895
+
+Release Team.value=Release Team
+Release Team.shortDescription=Release Team Role
+Release Team.order=894
+
+TECH_ENGR.value=Tech. Engineer
+TECH_ENGR.comment=For ECN task workflow
+TECH_ENGR.order=1024
+
+ERPITEMCREATOR.value=ERP Item Creator 
+ERPITEMCREATOR.comment=For MCN task workflow
+ERPITEMCREATOR.order=1090
+
+COMPLIANCEANALYST.value=Compliance Analyst 
+COMPLIANCEANALYST.comment=For MCN task workflow
+COMPLIANCEANALYST.order=1100
+
+PRICINGANALYST.value=Pricing Analyst 
+PRICINGANALYST.comment=For MCN task workflow
+PRICINGANALYST.order=1110
+
+SIOP.value=SIOP 
+SIOP.comment=Sales Inventory and Operations Planning for MCN task workflow
+SIOP.order=1120
+
+COSTANALYST.value=Cost Analyst 
+COSTANALYST.comment=For MCN task workflow
+COSTANALYST.order=1130
+
+TECHSERVICES.value=Tech Services  
+TECHSERVICES.comment=For MCN task workflow
+TECHSERVICES.order=1140
+
+ERPBOMCONFIGANALYST.value=ERP BOM/Config Analyst  
+ERPBOMCONFIGANALYST.comment=For MCN task workflow
+ERPBOMCONFIGANALYST=1150
+
+ORDERMANAGEMENT.value=Order Management 
+ORDERMANAGEMENT.comment=For MCN task workflow
+ORDERMANAGEMENT.order=1160
+
+PROCESSINITIATOR.value=Process Initiator  
+PROCESSINITIATOR.comment=For MCN task workflow
+PROCESSINITIATOR.order=1170
+
+QUALITYINSPECTOR.value=Quality Inspector   
+QUALITYINSPECTOR.comment=For MCN task workflow
+QUALITYINSPECTOR.order=1180
+
+SOURCING.value=Sourcing
+SOURCING.comment=For MCN task workflow
+SOURCING.order=1190
+
+PROCESSQUALITYENGINEER.value=Process Quality Engineer
+PROCESSQUALITYENGINEER.comment=
+PROCESSQUALITYENGINEER.order=1200
+
+SUPPLIERQUALITYENGINEER.value=Supplier Quality Engineer
+SUPPLIERQUALITYENGINEER.comment=
+SUPPLIERQUALITYENGINEER.order=1210
+
+VAVEENGINEER.value=VAVE Engineer
+VAVEENGINEER.comment=
+VAVEENGINEER.order=1220
+
+# Added by Sanjay Govindasamy on 24-July-2010
+Distribution.value=Distribution
+Distribution.shortDescription=Distribution
+Distribution.order=1284
+
+CAR ADMINISTRATOR.value=CAR Administrator
+CAR ADMINISTRATOR.shortDescription=CAR Administrator Role
+CAR ADMINISTRATOR.order=1314
+CAR ADMINISTRATOR.order=1314
+
+CAR INITIATOR.value=CAR Initiator
+CAR INITIATOR.shortDescription=CAR Initiator Role
+CAR INITIATOR.order=994
+
+CAR MANAGER.value=CAR Manager
+CAR MANAGER.shortDescription=CAR Manager Role
+CAR MANAGER.order=1186
+
+CAR OBSERVER.value=CAR Observer
+CAR OBSERVER.shortDescription=CAR Observer Role
+CAR OBSERVER.order=1250
+
+CAR RESPONDER.value=CAR Responder
+CAR RESPONDER.shortDescription=CAR Responder Role
+CAR RESPONDER.order=1122
+
+CAR SENDER.value=CAR Sender
+CAR SENDER.shortDescription=CAR Sender Role
+CAR SENDER.order=1058
+
+CAR VERIFIER.value=CAR Verifier
+CAR VERIFIER.shortDescription=CAR Verifier Role
+CAR VERIFIER.order=1378
+
+# Added by Sanjay Govindasamy on 05/15/2011 ticket #3298830
+QUALITYREVIEWER.value=Quality Reviewer  
+QUALITYREVIEWER.comment=
+QUALITYREVIEWER.order=1200
+
+MARKETINGREVIEWER.value=Marketing Reviewer
+MARKETINGREVIEWER.comment=
+MARKETINGREVIEWER.order=1210
+
+SUSTAININGENGINEER.value=Sustaining Engineer
+SUSTAININGENGINEER.comment=
+SUSTAININGENGINEER.order=1220

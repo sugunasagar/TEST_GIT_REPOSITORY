@@ -1,0 +1,216 @@
+ResourceInfo.class=wt.tools.resource.EnumResourceInfo
+ResourceInfo.customizable=true
+ResourceInfo.deprecated=false
+
+# Entry Format (values equal to default value are not included)
+# <key>.value=
+# <key>.category=
+# <key>.comment=
+# <key>.argComment<n>=
+# <key>.constant=
+# <key>.customizable=
+# <key>.deprecated=
+# <key>.abbreviatedDisplay=
+# <key>.fullDisplay=
+# <key>.shortDescription=
+# <key>.longDescription=
+# <key>.order=
+# <key>.defaultValue=
+# <key>.selectable=
+
+# Entry Contents
+
+ACCEPTED.value=Accepted
+ACCEPTED.shortDescription=Accepted state
+
+APPROVED.value=Approved
+APPROVED.shortDescription=Approved state
+
+ASSEMBLY.value=Assembly
+ASSEMBLY.shortDescription=Assembly state
+
+ASSIGNED.value=Assigned
+ASSIGNED.shortDescription=Assigned state
+
+CANCELLED.value=Cancelled
+CANCELLED.shortDescription=Cancelled state
+
+CLOSED.value=Closed
+CLOSED.shortDescription=Closed state
+
+COMPLETED.value=Completed
+COMPLETED.shortDescription=Completed state
+
+DEFERRED.value=Deferred
+DEFERRED.shortDescription=Deferred state
+
+DESIGN.value=Design
+DESIGN.shortDescription=Design state
+
+DEVELOPMENT.value=Development
+DEVELOPMENT.shortDescription=Development state
+
+DROPPED.value=Dropped
+DROPPED.shortDescription=Dropped state
+DROPPED.selectable=false
+
+IMPLEMENTATION.value=Implementation
+IMPLEMENTATION.shortDescription=Implementation state
+
+IN ANALYSIS.value=In Analysis
+IN ANALYSIS.shortDescription=In Analysis state
+
+INVESTIGATION.value=Investigation
+INVESTIGATION.shortDescription=Investigation state
+
+INWORK.value=In Work
+INWORK.shortDescription=In Work state
+
+MANUFACTURING.value=Manufacturing
+MANUFACTURING.shortDescription=Manufacturing state
+
+ON HOLD.value=On Hold
+ON HOLD.shortDescription=On Hold state
+
+OBSOLETE.value=Obsolete
+OBSOLETE.shortDescription=Obsolete state
+
+OPEN.value=Open
+OPEN.shortDescription=Open state
+
+PACKAGING.value=Packaging
+PACKAGING.shortDescription=Packaging state
+
+PENDING APPROVAL.value=Pending Approval
+PENDING APPROVAL.shortDescription=Pending Approval state
+
+PLANNING.value=Planning
+PLANNING.shortDescription=Planning state
+
+PRICING.value=Pricing
+PRICING.shortDescription=Pricing state
+
+PROCUREMENT.value=Procurement
+PROCUREMENT.shortDescription=Procurement state
+
+PROPOSAL.value=Proposal
+PROPOSAL.shortDescription=Proposal state
+
+REJECTED.value=Rejected
+REJECTED.shortDescription=Rejected state
+
+RELEASED.value=Released
+RELEASED.shortDescription=Released state
+
+RESEARCH.value=Research
+RESEARCH.shortDescription=Research state
+
+RESOLVED.value=Resolved
+RESOLVED.shortDescription=Resolved state
+
+REVIEWED.value=Reviewed
+REVIEWED.shortDescription=Reviewed state
+
+REWORK.value=Rework
+REWORK.shortDescription=Rework state
+
+SHIPPED.value=Shipped
+SHIPPED.shortDescription=Shipped state
+
+SHIPPING.value=Shipping
+SHIPPING.shortDescription=Shipping state
+
+SOLUTION.value=Solution
+SOLUTION.shortDescription=Solution state
+
+TESTING.value=Testing
+TESTING.shortDescription=Testing state
+
+UNDERREVIEW.value=Under Review
+UNDERREVIEW.shortDescription=Under review state
+
+EXPORTING.value=Exporting
+EXPORTING.shortDescription=Exporting state
+
+IMPORTING.value=Importing
+IMPORTING.shortDescription=Importing state
+
+POPULATED.value=Populated
+POPULATED.shortDescription=Populated state
+
+PURGING.value=Purging
+PURGING.shortDescription=Purging state
+
+RECEIVING.value=Receiving
+RECEIVING.shortDescription=Receiving state
+
+SENDING.value=Sending
+SENDING.shortDescription=Sending state
+
+SENT.value=Sent
+SENT.shortDescription=Sent state
+
+DEFINING REQUIREMENTS.value=Defining Requirements
+DEFINING REQUIREMENTS.shortDescription=Defining Requirements state
+
+OPEN FOR RESPONSES.value=Open For Responses
+OPEN FOR RESPONSES.shortDescription=Open For Responses state
+
+EVALUATING RESPONSES.value=Evaluating Responses
+EVALUATING RESPONSES.shortDescription=Evaluating Responses state
+
+CONTRACTING.value=Contracting
+CONTRACTING.shortDescription=Contracting state
+
+PROTOTYPE.value=Prototype
+PROTOTYPE.shortDescription=Prototype
+
+PRODUCTION.value=Production
+PRODUCTION.shortDescription=Production
+
+OBSOLESCENCE.value=Obsolescence
+OBSOLESCENCE.shortDescription=Obsolescence
+
+CONCEPT.value=Concept
+CONCEPT.shortDescription=Concept
+
+WITHDRAWN.value=Withdrawn
+WITHDRAWN.shortDescription=Withdrawn
+
+PROTOTYPEINWORK.value=Prototype In Work
+PROTOTYPEINWORK.shortDescription=Prototype In Work
+
+PROTOTYPERELEASED.value=Prototype Released
+PROTOTYPERELEASED.shortDescription=Prototype Released
+
+PRODUCTIONCHANGE.value=Production Change
+PRODUCTIONCHANGE.shortDescription=Production Change
+
+PRODUCTIONRELEASED.value=Production Released
+PRODUCTIONRELEASED.shortDescription=Production Released
+ResourceInfo.class=wt.tools.resource.EnumResourceInfo
+ResourceInfo.customizable=true
+ResourceInfo.deprecated=false
+ResourceInfo.replacement=false
+
+ARCHIVE.value=Archive
+ARCHIVE.shortDescription=Archive state
+
+IMPORTED.value=Imported
+IMPORTED.shortDescription=Imported, added for BCT migration
+
+INACTIVE.value=Inactive
+INACTIVE.shortDescription=Inactive State
+
+NONPRODUCTION.value=Non Production
+NONPRODUCTION.shortDescription=Non Production state from Parts and EPM objects
+
+LEGACYRELEASED.value=Legacy Released
+LEGACYRELEASED.shortDescription=Legacy Released State
+
+ENGR_RELEASED.value=Engineering Released
+ENGR_RELEASED.shortDescription=Engineering Released 
+
+MoveTo.value=MoveTo
+MoveTo.comment=MoveTo
+MoveTo.shortDescription=MoveTo

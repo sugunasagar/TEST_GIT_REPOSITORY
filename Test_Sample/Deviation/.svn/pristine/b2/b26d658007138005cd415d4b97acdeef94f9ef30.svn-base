@@ -1,0 +1,19 @@
+ResourceInfo.class=wt.tools.resource.StringResourceInfo
+ResourceInfo.customizable=true
+ResourceInfo.deprecated=false
+ResourceInfo.UUID=a0cf2379-2835-46c8-96dd-82e086e194cf
+
+# Entry Format (values equal to default value are not included)
+# <key>.value=
+# <key>.comment=
+# <key>.argComment<n>=
+# <key>.constant=
+# <key>.customizable=
+# <key>.deprecated=
+
+# Entry Contents
+
+variance.deviationReport.description.value=Deviation Report
+variance.deviationReport.title.value=Deviation Report
+variance.deviationReport.tooltip.value=Deviation Report
+variance.deviationReport.icon.value=DeviationReport.gif
