@@ -10,7 +10,7 @@ import java.util.ListResourceBundle;
 public class DeviationResource extends ListResourceBundle
 {
 
-	//Changes done by 64634536
+	//Changes done by SGS SAGR
     static final Object contents[][] = {
        {
             "variance.deviationReport.description", "Deviation Report"
