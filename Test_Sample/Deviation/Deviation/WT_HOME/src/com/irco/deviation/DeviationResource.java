@@ -11,7 +11,7 @@ public class DeviationResource extends ListResourceBundle
 {
 
 
-	//Changes done by SUguna Sagar 1234-Changes
+	//Changes done by Suguna Sagar 1234-Changes
 
     static final Object contents[][] = {
        {
